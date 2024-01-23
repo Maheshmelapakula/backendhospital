@@ -30,7 +30,7 @@ const doctorRoutes = require('./routes/doctorRoutes');
 app.use('/auth', authRoutes);
 // app.use('/auth/appointments', doctorRoutes);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
